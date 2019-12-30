@@ -1,0 +1,44 @@
+.menu-container {
+  width:300px;
+ 
+  .icon{
+    width: 20px;
+    height: auto;
+    padding: 0 10px 0 20px;
+    position: relative;
+    top: -4px;
+  }
+  // :global {
+    .el-menu-item {
+      border-bottom: 1px solid #eee;
+      font-size: 16px;
+      color: #333333 !important;
+      padding-left: 74px !important;
+      cursor: pointer;
+      transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+      box-sizing: border-box;
+      text-align: left;
+
+      &.is-active {
+        color: #0f8deb !important;
+        background-color: #e3f1fc !important;
+        border-right: 4px solid #0f8deb;
+      }
+      &:focus,
+      &:hover {
+        outline: 0;
+        background-color: #e3f1fc !important;
+        color: #0f8deb !important;
+      }
+    }
+    .el-submenu__title{
+      font-size: 16px;
+      &:focus,
+      &:hover {
+        outline: 0;
+        background-color: #e3f1fc !important;
+        color: #0f8deb !important;
+      }
+    }
+  // }
+}
