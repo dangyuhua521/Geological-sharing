@@ -28,7 +28,7 @@
     "ol": "^4.6.5",
     "openlayers": "^4.6.5",
     "prerender-spa-plugin": "^3.4.0",
-    "qs": "^6.5.2",
+    "qs": "^6.9.7",
     "scss-loader": "0.0.1",
     "shapefile": "^0.6.6",
     "style": "0.0.3",
